@@ -1,17 +1,17 @@
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import Products from "./Components/Products";
+import ProductsList from "./Components/ProductsList";
 
 function App() {
   const name = 'Zahid'
   return (
     <div className="Contanier">
       <Header />
-      <Products/>
+      <ProductsList/>
 
 
 
-      
+
       <Footer/>
       
     </div>
