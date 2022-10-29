@@ -1,10 +1,12 @@
+import Product from "./Product"
 
 
 const ProductsList = () => {
 
     return (
       <div>
-          <h1>hesdfsd</h1>
+          <h1>All products</h1>
+          <Product/>
       </div>
   
     )
