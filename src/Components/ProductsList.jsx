@@ -1,4 +1,5 @@
 import Product from "./Product"
+import "./ProductsList.css"
 
 
 const ProductsList = () => {
@@ -11,12 +12,31 @@ const ProductsList = () => {
     return (
       <div>
           <h1>All products</h1>
-          <Product 
-            title={dummyProduct.title}
-            image={dummyProduct.image}
-            description={dummyProduct.description}
-            />
-            
+          <div className="product-container">
+            <div className="product-list">
+            <Product 
+              title={dummyProduct.title}
+              image={dummyProduct.image}
+              description={dummyProduct.description}
+              />
+              <Product 
+              title={dummyProduct.title}
+              image={dummyProduct.image}
+              description={dummyProduct.description}
+              />
+              <Product 
+              title={dummyProduct.title}
+              image={dummyProduct.image}
+              description={dummyProduct.description}
+              />
+             <Product 
+              title={dummyProduct.title}
+              image={dummyProduct.image}
+              description={dummyProduct.description}
+              />
+            </div>
+
+          </div>
       </div>
   
     )

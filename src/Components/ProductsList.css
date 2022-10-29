@@ -1,0 +1,10 @@
+.product-container{
+    display: flex;
+    justify-content: center;
+}
+.product-list{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
