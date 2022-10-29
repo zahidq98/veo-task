@@ -1,19 +1,30 @@
 .footer-container{
-    text-align: center;
     background-color: #f0f0f0;
     display: flex;
-}
-
-.links{
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
 a{
     padding: 5px;
+    text-align: center;
 }
 
-.more-links{
+h4{
+    text-align: center;
+}
+
+.company-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.legal-links{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.support-links{
     padding-left: 100px;
     display: flex;
     flex-direction: column;

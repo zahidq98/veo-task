@@ -3,17 +3,25 @@ import "./Footer.css"
 const Footer = () => {
     return (
       <div className="footer-container">
-          <div className="links">
+          <div className="company-links">
+          <h4>Company</h4>
           <a href="">About Us</a>
-          <a href="">Contact</a>
-          <a href="">Sustainability</a>
-          <a href="">Join as a Brand</a>
-          </div>
-          <div className="more-links">
           <a href="">Blog</a>
-          <a href="">Delivery</a>
-          <a href="">Returns</a>
-          <a href="">FAQs</a>
+          <a href="">Careers</a>
+          <a href="">Contact Us</a>
+          </div>
+          <div className="legal-links">
+          <h4>Legal</h4>
+          <a href="">Cookies Policy</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Terms of Serfice</a>
+          <a href="">Law Enforcement</a>
+          </div>
+          <div className="support-links">
+          <h4>Support</h4>
+          <a href="">Help Center</a>
+          <a href="">Safety Center</a>
+          <a href="">Community Guidelines</a>
           </div>
       </div>
   
