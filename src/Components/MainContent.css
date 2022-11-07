@@ -1,0 +1,46 @@
+.mainContent-h1{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: #18191F;
+}
+
+.mainContant-p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+
+.mainContent-container{
+    height: 92vh;
+    display: flex;
+    align-items: center;
+}
+
+.main-features{
+    padding-left: 170px;
+}
+
+.main-button{
+    padding-top: 50px;
+}
+
+button{
+    padding: 12px 32px;
+    border: none;
+    width: 123px;
+    height: 48px;
+    background: #8C30F5;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.mainContent-img{
+    position: absolute;
+    right:0;
+    top: 0;
+}
