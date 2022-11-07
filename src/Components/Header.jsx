@@ -1,18 +1,16 @@
 import "./Header.css"
+import NavbarLink from "./NavbarLink"
 
 const Header = () => {
   return (
     <div className="header-container">
-        <h1>Zahid's Shop</h1>
-        <p>The UK's most sustainable online shopping destination. </p>
-        <ul>
-          <li><a href="http://">Home</a></li>
-          <li><a href="http://">Products</a></li>
-          <li><a href="http://">About Us</a></li>
-        </ul>
+      <nav className="nav-container">
+        <NavbarLink link="Home" href="#home"/>
+        <NavbarLink link="Products" href="#products"/>
+        <NavbarLink link="Reviews" href="#reviews"/>
+      </nav>
     </div>
-
-  )
+    )
 }
 
 export default Header
