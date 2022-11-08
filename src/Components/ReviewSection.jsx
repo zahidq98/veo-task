@@ -6,7 +6,6 @@ const ReviewSection = () => {
     <div className="reviewSection-container">
         <div className="reviewSection-header">
             <h1 className="reviewSection-h1">Reviews</h1>
-            {/* <img src="" alt="" /> */}
         </div>
         <div className="reviewSection-quote">
           <ReviewQuote
