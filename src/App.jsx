@@ -3,6 +3,7 @@ import Footer from "./Components/Footer";
 import ProductsList from "./Components/ProductsList";
 import "./App.css"
 import MainContent from "./Components/MainContent";
+import ReviewSection from "./Components/ReviewSection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <MainContent/>
       <ProductsList/>
+      <ReviewSection />
       <Footer/>   
     </div>
   );
