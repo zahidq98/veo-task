@@ -1,3 +1,55 @@
+.reviewQuote-bubble{
+    border-radius: 10px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
 .reviewQuote-container{
-    background-color: red;
+    padding: 30px 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviewQuote-h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.reviewQuote-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.reviewQuote-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.reviewQuote-profile-h5{
+    color: #FFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.reviewQuote-profile-p{
+    color: #FFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
