@@ -13,6 +13,7 @@
 }
 
 .mainContent-container{
+    /* take up the rest of the on screen using viewport height */
     height: 92vh;
     display: flex;
     align-items: center;
@@ -40,6 +41,7 @@ button{
 }
 
 .mainContent-img{
+    /* make the image stick to the top left of the screen */
     position: absolute;
     right:0;
     top: 0;

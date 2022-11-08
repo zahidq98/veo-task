@@ -1,5 +1,6 @@
 .product-list{
     display: flex;
+    /* make the products go onto a new line */
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 5% 15%;

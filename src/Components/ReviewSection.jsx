@@ -8,6 +8,7 @@ const ReviewSection = () => {
             <h1 className="reviewSection-h1">Reviews</h1>
         </div>
         <div className="reviewSection-quote">
+        {/* created review quote component because there was 2 of these in the design, so it makes to make it a component. used props to pass data to the component */}
           <ReviewQuote
             bubbleTitle="Mission"
             bubbleDescription="Brindar artículos de calidad a un costo justo, otorgándoles la oportunidad a nuestros clientesrealizar sus compras de manera, segura y eficiente."

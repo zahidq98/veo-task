@@ -14,16 +14,12 @@
 }
 
 .reviewQuote-h4{
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
 }
 
 .reviewQuote-p{
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -38,8 +34,6 @@
 
 .reviewQuote-profile-h5{
     color: #FFF;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
@@ -47,8 +41,6 @@
 
 .reviewQuote-profile-p{
     color: #FFF;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;

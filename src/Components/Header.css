@@ -1,6 +1,7 @@
 .header-container{
     display: flex;
     align-items: center;
+    /* make the navbar take up a specific amount of space */
     height: 8vh;
 }
 
@@ -12,6 +13,7 @@
     
 }
 
+/* added css that only applies when you hover on the navbar link */
 .nav-container :hover{
     background-color: #8C30F5;
     padding: 5px;
