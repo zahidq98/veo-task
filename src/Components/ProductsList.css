@@ -1,6 +1,10 @@
-.product-container{
+.product-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 24px;
+    padding: 5% 15%;
+}
+
+.product-h1{
+    text-align: center;
 }
